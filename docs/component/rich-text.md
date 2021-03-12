@@ -146,5 +146,5 @@ export default {
 - attrs 属性不支持 id ，支持 class 。
 - name 属性大小写不敏感。
 - 如果使用了不受信任的HTML节点，该节点及其所有子节点将会被移除。
-- img 标签仅支持网络图片。
+- img 标签仅支持网络图片，nvue模式下必须设置 宽高，否则不显示。
 - 如果在自定义组件中使用 rich-text 组件，那么仅自定义组件的 css 样式对 rich-text 中的 class 生效。
